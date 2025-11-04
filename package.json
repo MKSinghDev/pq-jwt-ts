@@ -1,0 +1,41 @@
+{
+    "name": "pqc-jwt",
+    "version": "0.0.1",
+    "description": "Post-Quantum JWT implementation - Placeholder package",
+    "type": "module",
+    "module": "./src/index.ts",
+    "main": "./src/index.ts",
+    "exports": {
+        ".": {
+            "import": "./src/index.ts",
+            "require": "./src/index.ts"
+        }
+    },
+    "files": [
+        "src",
+        "README.md"
+    ],
+    "scripts": {
+        "dev": "bun run ./src/index.ts"
+    },
+    "keywords": [
+        "jwt",
+        "post-quantum",
+        "cryptography",
+        "security",
+        "pqc",
+        "quantum-resistant"
+    ],
+    "author": "",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "devDependencies": {
+        "@types/bun": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5"
+    }
+}
