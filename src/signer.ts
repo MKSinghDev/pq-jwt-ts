@@ -4,9 +4,9 @@
 
 import { ml_dsa44, ml_dsa65, ml_dsa87 } from "@noble/post-quantum/ml-dsa.js";
 import { v7 as uuidv7 } from "uuid";
-import { MlDsaAlgo, type Claims, type JwtHeader, type SignResult } from "./types.ts";
-import { base64UrlEncode, bytesToHex, generateKid, getCurrentTimestamp, hexToBytes } from "./utils.ts";
-import { getPublicKey } from "./keygen.ts";
+import { MlDsaAlgo, type Claims, type JwtHeader, type SignResult } from "./types";
+import { base64UrlEncode, bytesToHex, generateKid, getCurrentTimestamp, hexToBytes } from "./utils";
+import { getPublicKey } from "./keygen";
 
 /**
  * Validates JWT claims before signing

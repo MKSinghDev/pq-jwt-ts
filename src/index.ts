@@ -28,16 +28,16 @@
  */
 
 // Export types
-export { MlDsaAlgo, type Claims, type JwtHeader, type SignResult, type Keypair } from "./types.ts";
+export { MlDsaAlgo, type Claims, type JwtHeader, type SignResult, type Keypair } from "./types";
 
 // Export key generation
-export { generateKeypair, getPublicKey } from "./keygen.ts";
+export { generateKeypair, getPublicKey } from "./keygen";
 
 // Export signing
-export { sign, SignerBuilder } from "./signer.ts";
+export { sign, SignerBuilder } from "./signer";
 
 // Export verification
-export { verify, Verifier, VerifierBuilder } from "./verifier.ts";
+export { verify, Verifier, VerifierBuilder } from "./verifier";
 
 // Export utilities (for advanced use cases)
-export { bytesToHex, hexToBytes, base64UrlEncode, base64UrlDecode, getCurrentTimestamp } from "./utils.ts";
+export { bytesToHex, hexToBytes, base64UrlEncode, base64UrlDecode, getCurrentTimestamp } from "./utils";

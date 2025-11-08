@@ -3,7 +3,7 @@
  */
 
 import { test, expect, describe } from "bun:test";
-import { generateKeypair, sign, verify, MlDsaAlgo, SignerBuilder, VerifierBuilder } from "./index.ts";
+import { generateKeypair, sign, verify, MlDsaAlgo, SignerBuilder, VerifierBuilder } from "./index";
 
 describe("Key Generation", () => {
   test("should generate keypair for ML-DSA-44", () => {

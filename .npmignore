@@ -1,0 +1,27 @@
+# Source files - don't publish to npm
+src/
+tsconfig.json
+tsconfig.build.json
+bun.lock
+
+# Tests
+*.test.ts
+*.test.js
+
+# Development files
+.vscode/
+.idea/
+.DS_Store
+.env
+.env.*
+
+# Git
+.git/
+.gitignore
+
+# CI/CD
+.github/
+.circleci/
+
+# Documentation that's not needed
+CLAUDE.md
