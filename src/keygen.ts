@@ -3,8 +3,8 @@
  */
 
 import { ml_dsa44, ml_dsa65, ml_dsa87 } from "@noble/post-quantum/ml-dsa.js";
-import { MlDsaAlgo, type Keypair } from "./types";
-import { bytesToHex } from "./utils";
+import { MlDsaAlgo, type Keypair } from "./types.js";
+import { bytesToHex } from "./utils.js";
 
 /**
  * Generates a keypair for the specified ML-DSA algorithm
@@ -78,4 +78,4 @@ export function getPublicKey(algo: MlDsaAlgo, privateKeyHex: string): string {
 }
 
 // Re-import for local use
-import { hexToBytes } from "./utils";
+import { hexToBytes } from "./utils.js";

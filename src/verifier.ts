@@ -3,8 +3,8 @@
  */
 
 import { ml_dsa44, ml_dsa65, ml_dsa87 } from "@noble/post-quantum/ml-dsa.js";
-import { MlDsaAlgo, type Claims, type JwtHeader } from "./types";
-import { base64UrlDecode, getCurrentTimestamp, hexToBytes } from "./utils";
+import { MlDsaAlgo, type Claims, type JwtHeader } from "./types.js";
+import { base64UrlDecode, getCurrentTimestamp, hexToBytes } from "./utils.js";
 
 /**
  * Verifies a JWT and returns the decoded payload
