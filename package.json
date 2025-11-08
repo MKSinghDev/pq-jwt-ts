@@ -1,5 +1,5 @@
 {
-    "name": "pqc-jwt",
+    "name": "@awth/pq-jwt",
     "version": "0.0.1",
     "description": "Post-Quantum JWT implementation - Placeholder package",
     "type": "module",

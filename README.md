@@ -1,4 +1,4 @@
-# pqc-jwt
+# @awth/pq-jwt
 
 ⚠️ **PLACEHOLDER PACKAGE** ⚠️
 
@@ -6,7 +6,7 @@ This package name is reserved for a future Post-Quantum Cryptography JWT impleme
 
 ## What is this?
 
-This is a placeholder package that reserves the `pqc-jwt` name on npm for an upcoming library that will provide JSON Web Token (JWT) functionality with post-quantum cryptographic algorithms.
+This is a placeholder package that reserves the `@awth/pq-jwt` name on npm for an upcoming library that will provide JSON Web Token (JWT) functionality with post-quantum cryptographic algorithms.
 
 Post-quantum cryptography refers to cryptographic algorithms that are secure against attacks by quantum computers.
 
@@ -25,7 +25,7 @@ Post-quantum cryptography refers to cryptographic algorithms that are secure aga
 ## Installation
 
 ```bash
-bun install pqc-jwt
+bun install @awth/pq-jwt
 ```
 
 ## Usage
