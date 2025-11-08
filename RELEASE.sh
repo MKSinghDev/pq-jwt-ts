@@ -126,7 +126,7 @@ fi
 
 # Commit changes
 echo -e "${YELLOW}💾 Committing changes...${NC}"
-git add package.json dist/
+git add package.json
 git commit -m "chore: bump version to $VERSION"
 
 # Create tag
