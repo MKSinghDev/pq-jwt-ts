@@ -1,0 +1,36 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+# CodeRabbit Configuration for pq-jwt
+# https://docs.coderabbit.ai/guides/configure-coderabbit
+
+# Language for CodeRabbit comments (natural language)
+language: en-US
+
+# Review settings
+reviews:
+  auto_title_placeholder: "@coderabbitai"
+  # File patterns to review
+  path_filters:
+    # Include
+    # - include:
+    - "src/**/*.rs"
+    - "tests/**/*.rs"
+    - "benches/**/*.rs"
+    - "examples/**/*.rs"
+    - "package.json"
+    - "tsconfig.json"
+    - "README.md"
+    - "CHANGELOG.md"
+
+    # Exclude (don't review these)
+    # - exclude:
+    # - "target/**"
+    # - "**/*.lock"
+    # - ".git/**"
+    # - ".github/**/*.yml"  # GitHub Actions are reviewed separately
+
+  # Request changes if critical issues are found
+  request_changes_workflow: true
+
+  # Auto-approve PRs that only have minor changes
+  auto_review:
+    enabled: true
